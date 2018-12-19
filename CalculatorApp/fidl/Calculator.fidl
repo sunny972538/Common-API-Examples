@@ -1,0 +1,86 @@
+package commonapi
+
+interface Calculator{
+	version{major 1 minor 0}
+	method add{
+		in{
+			Double operand1
+			Double operand2
+		}
+		out{
+			Double result
+		}
+
+	}
+
+	method subtarct{
+		in{
+			Double operand1
+			Double operand2
+		}
+		out{
+			Double result
+		}
+	}
+	method multiply{
+		in{
+			Double operand1
+			Double operand2
+		}
+		out{
+			Double result
+		}
+	}
+	method divide{
+		in{
+			Double dividend
+			Double divisor
+		}
+		out{
+			Double qoutient
+			Int64 remainder
+		}
+	}
+	method mod{
+		in{
+			Int64 dividend
+			Int64 divisor
+		}
+		out{
+			Int64 remainder
+		}
+
+	}
+	
+	method sqrt{
+		in{
+			Double operand
+			
+		}
+		out{
+			Double result
+		}
+	}
+	method cubert{
+		in{
+			Double operand
+			
+		}
+		out{
+			Double result
+		}
+	}
+	method expon{
+		in{
+			Double base
+			Double exponent
+		}
+		out{
+			Double result
+		}
+	}
+		
+
+
+
+}

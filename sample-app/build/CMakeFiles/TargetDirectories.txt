@@ -1,0 +1,2 @@
+/home/yoctoadm/common-api/sample-app/build/CMakeFiles/HelloWorldClient.dir
+/home/yoctoadm/common-api/sample-app/build/CMakeFiles/HelloWorldService.dir

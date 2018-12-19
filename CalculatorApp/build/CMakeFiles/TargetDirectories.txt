@@ -1,0 +1,2 @@
+/home/yoctoadm/common-api/CalculatorApp/build/CMakeFiles/CalculatorClient.dir
+/home/yoctoadm/common-api/CalculatorApp/build/CMakeFiles/CalculatorService.dir

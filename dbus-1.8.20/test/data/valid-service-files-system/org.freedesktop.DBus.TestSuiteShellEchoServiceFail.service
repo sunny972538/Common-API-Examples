@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteShellEchoServiceFail
+Exec=/home/yoctoadm/common-api/dbus-1.8.20/test/test-shell-service "this should 'fail' because of an unterminated quote
+User=anyrandomuser
+

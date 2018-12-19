@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuite.PrivServer
+Exec=/home/yoctoadm/common-api/dbus-1.8.20/test/name-test/test-privserver
+
